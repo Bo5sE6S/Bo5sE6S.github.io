@@ -3,8 +3,8 @@ var heatmap;
 
 function initializeMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 45.4218, lng: -75.6787 },
-    zoom: 12,  // zoom level adjusted to see heatmap more clearly
+    center: { lat: 45.423170, lng: -75.683222 },
+    zoom: 20,  // zoom level adjusted to see heatmap more clearly
   });
 
   heatmap = new google.maps.visualization.HeatmapLayer({
