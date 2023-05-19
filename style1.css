@@ -1,17 +1,36 @@
-/* 
- * Always set the map height explicitly to define the size of the div element
- * that contains the map. 
- */
- #map {
-    height: 100%;
-  }
-  
-  /* 
-   * Optional: Makes the sample page fill the window. 
-   */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+#map {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.control-panel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;  /* makes sure the control panel floats above the map */
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#heatmap-button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4285F4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#heatmap-button:hover {
+  background-color: #2C75F4;
+}
