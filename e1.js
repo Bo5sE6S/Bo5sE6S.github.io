@@ -3,7 +3,7 @@ var heatmap;
 
 function initializeMap() {
   map = new google.maps.Map(document.getElementById('map'), {
-    center: { lat: 45.423560, lng: -75.683720},
+    center: { lat:-75.683720, lng:45.423560},
     zoom: 7,  
   });
 
