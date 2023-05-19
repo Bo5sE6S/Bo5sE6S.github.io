@@ -4,7 +4,7 @@ var heatmap;
 function initializeMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: 55.423170, lng: 75.683222 },
-    zoom: 20,  // zoom level adjusted to see heatmap more clearly
+    zoom: 2,  
   });
 
   heatmap = new google.maps.visualization.HeatmapLayer({
