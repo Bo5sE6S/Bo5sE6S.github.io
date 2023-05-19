@@ -20,17 +20,48 @@ body {
   box-shadow: 0 2px 6px rgba(0,0,0,0.3);
 }
 
-#heat-button {
+#temp-button {
   font-size: 1rem;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #4285F4;
+  background-color: #ff726f; /* slightly red hue */
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-#heat-button:hover {
-  background-color: #2C75F4;
+#temp-button:hover {
+  background-color: #cc5c5c; /* darker red for hover */
 }
+
+#humid-button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6fa8dc; /* slightly blue hue */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#humid-button:hover {
+  background-color: #578bb1; /* darker blue for hover */
+}
+
+#pm-button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #7bd67b; /* slightly green hue */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#pm-button:hover {
+  background-color: #62b362; /* darker green for hover */
+}
+
