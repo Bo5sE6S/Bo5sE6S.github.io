@@ -4,7 +4,7 @@ var heatmap;
 function initializeMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: { lat:45.423560, lng:-75.683720 },
-    zoom: 12,  
+    zoom: 15,  
   });
 
   heatmap = new google.maps.visualization.HeatmapLayer({
@@ -84,3 +84,7 @@ async function addhumidData() {
     console.error('Error:', error);
   }
 }
+
+
+
+
